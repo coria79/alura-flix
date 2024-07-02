@@ -1,10 +1,9 @@
-{
-  "videos": [
+[
     {
       "id": 1,
       "title": "Título del Video 1",
       "category": "frontend",
-      "image": "url_de_la_imagen_1.jpg",
+      "image": "https://cdn2.thecatapi.com/images/CRBH8WPk-.jpg",
       "videoUrl": "url_del_video_1.mp4",
       "description": "Descripción del Video 1"
     },
@@ -12,7 +11,7 @@
       "id": 2,
       "title": "Título del Video 2",
       "category": "backend",
-      "image": "url_de_la_imagen_2.jpg",
+      "image": "https://cdn2.thecatapi.com/images/CRBH8WPk-.jpg",
       "videoUrl": "url_del_video_2.mp4",
       "description": "Descripción del Video 2"
     },
@@ -20,9 +19,16 @@
       "id": 3,
       "title": "Título del Video 3",
       "category": "innovacion_gestion",
-      "image": "url_de_la_imagen_3.jpg",
+      "image": "https://cdn2.thecatapi.com/images/CRBH8WPk-.jpg",
       "videoUrl": "url_del_video_3.mp4",
       "description": "Descripción del Video 3"
+    },
+    {
+      "id": 4,
+      "title": "Título del Video 4",
+      "category": "innovacion_gestion",
+      "image": "https://cdn2.thecatapi.com/images/CRBH8WPk-.jpg",
+      "videoUrl": "url_del_video_3.mp4",
+      "description": "Descripción del Video 4"
     }
-  ]
-}
+]
