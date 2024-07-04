@@ -1,0 +1,15 @@
+.new-video-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 65vh; /* Ajustar la altura según necesidades */
+}
+
+div{
+    margin: 5px;
+}
+
+.txt-description{
+    resize: none;
+}

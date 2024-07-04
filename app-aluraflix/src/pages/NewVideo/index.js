@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import db from '../../data/db.json';
+import styles from './newVideo.module.css'; // Importa el módulo CSS
 
 function NewVideo() {
     const [categories, setCategories] = useState([]); // State for categories
@@ -13,12 +14,17 @@ function NewVideo() {
         }
     }, []);
 
-
     // Fetch categories from the JSON server on component mount
     useEffect(() => {
-        fetch('http://localhost:3000/categories')
+        fetch('http://localhost:3001/categories')
             .then(response => response.json())
-            .then(data => setCategories(data.categories))
+            .then(data => {
+                if (Array.isArray(data)) {
+                    setCategories(data);
+                } else {
+                    console.error('Error: categories data is not an array', data);
+                }
+            })
             .catch(error => console.error('Error fetching categories:', error));
     }, []);
 
@@ -36,7 +42,7 @@ function NewVideo() {
         };
 
         // Send a POST request to create a new video
-        fetch('http://localhost:3000/videos', {
+        fetch('http://localhost:3001/videos', {
             method: 'POST', // Indicate that this is a POST request
             headers: {
                 'Content-Type': 'application/json', // Specify the content type
@@ -54,17 +60,21 @@ function NewVideo() {
     };
 
     return (
-        <>
-            <h2>Create New Video</h2>
+        <div className={styles["new-video-container"]}> {/* Utiliza la sintaxis de módulos CSS */}
+            <h2>Crear Nuevo Video</h2>
             <form onSubmit={handleSubmit}>
                 <div>
-                    <label htmlFor="title">Video Title:</label>
+                    <label htmlFor="title">Video Título:</label>
+                </div>
+                <div>
                     <input type="text" id="title" name="title" required />
                 </div>
                 <div>
-                    <label htmlFor="category">Category:</label>
+                    <label htmlFor="category">Categoría:</label>
+                </div>
+                <div>
                     <select id="category" name="category" required>
-                        <option value="">Select a category</option>
+                        <option value="">Seleccione una categoría</option>
                         {categories.map(category => (
                             <option key={category.id} value={category.name}>
                                 {category.name}
@@ -73,23 +83,29 @@ function NewVideo() {
                     </select>
                 </div>
                 <div>
-                    <label htmlFor="image">Image URL:</label>
-                    <input type="url" id="image" name="image" required />
+                    <label htmlFor="image">Imagen URL:</label>
+                </div>
+                <div>
+                    <input type="text" id="image" name="image" defaultValue="/img/logo-youtube.jpg" required/>
                 </div>
                 <div>
                     <label htmlFor="videoUrl">Video URL:</label>
+                </div>
+                <div>
                     <input type="url" id="videoUrl" name="videoUrl" required />
                 </div>
                 <div>
-                    <label htmlFor="description">Description:</label>
-                    <textarea id="description" name="description" required></textarea>
+                    <label htmlFor="description">Descripción:</label>
                 </div>
                 <div>
-                    <button type="submit">Create</button>
-                    <button type="reset">Clear Fields</button>
+                    <textarea className={styles["txt-description"]} id="description" name="description" rows="5" required></textarea> {/* Utiliza la sintaxis de módulos CSS */}
+                </div>
+                <div>
+                    <button type="submit">Crear</button>
+                    <button type="reset">Limpiar Campos</button>
                 </div>
             </form>
-        </>
+        </div>
     );
 }
 
