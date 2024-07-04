@@ -1,4 +1,5 @@
-[
+{
+  "videos": [
     {
       "id": 1,
       "title": "Título del Video 1",
@@ -63,4 +64,10 @@
       "videoUrl": "url_del_video_8.mp4",
       "description": "Descripción del Video 8"
     }
-]
+  ],
+  "categories": [
+    { "id": 1, "name": "FrontEnd" },
+    { "id": 2, "name": "BackEnd" },
+    { "id": 3, "name": "Innovacion & Gestión" }
+  ]
+}
