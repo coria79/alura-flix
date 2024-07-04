@@ -3,7 +3,7 @@
       "id": 1,
       "title": "Título del Video 1",
       "category": "frontend",
-      "image": "https://cdn2.thecatapi.com/images/CRBH8WPk-.jpg",
+      "image": "https://i.ytimg.com/an_webp/fTWD5Pnxkck/mqdefault_6s.webp?du=3000&sqp=COO6l7QG&rs=AOn4CLAGmEfLh4lued-NNYTv6GniVLuWag",
       "videoUrl": "url_del_video_1.mp4",
       "description": "Descripción del Video 1"
     },
@@ -11,7 +11,7 @@
       "id": 2,
       "title": "Título del Video 2",
       "category": "backend",
-      "image": "https://cdn2.thecatapi.com/images/CRBH8WPk-.jpg",
+      "image": "https://i.ytimg.com/an_webp/fTWD5Pnxkck/mqdefault_6s.webp?du=3000&sqp=COO6l7QG&rs=AOn4CLAGmEfLh4lued-NNYTv6GniVLuWag",
       "videoUrl": "url_del_video_2.mp4",
       "description": "Descripción del Video 2"
     },
@@ -19,7 +19,7 @@
       "id": 3,
       "title": "Título del Video 3",
       "category": "innovacion_gestion",
-      "image": "https://cdn2.thecatapi.com/images/CRBH8WPk-.jpg",
+      "image": "https://i.ytimg.com/an_webp/fTWD5Pnxkck/mqdefault_6s.webp?du=3000&sqp=COO6l7QG&rs=AOn4CLAGmEfLh4lued-NNYTv6GniVLuWag",
       "videoUrl": "url_del_video_3.mp4",
       "description": "Descripción del Video 3"
     },
@@ -27,8 +27,40 @@
       "id": 4,
       "title": "Título del Video 4",
       "category": "innovacion_gestion",
-      "image": "https://cdn2.thecatapi.com/images/CRBH8WPk-.jpg",
+      "image": "https://i.ytimg.com/an_webp/fTWD5Pnxkck/mqdefault_6s.webp?du=3000&sqp=COO6l7QG&rs=AOn4CLAGmEfLh4lued-NNYTv6GniVLuWag",
       "videoUrl": "url_del_video_3.mp4",
       "description": "Descripción del Video 4"
+    },
+    {
+      "id": 5,
+      "title": "Título del Video 5",
+      "category": "frontend",
+      "image": "https://i.ytimg.com/an_webp/fTWD5Pnxkck/mqdefault_6s.webp?du=3000&sqp=COO6l7QG&rs=AOn4CLAGmEfLh4lued-NNYTv6GniVLuWag",
+      "videoUrl": "url_del_video_5.mp4",
+      "description": "Descripción del Video 5"
+    },
+    {
+      "id": 6,
+      "title": "Título del Video 6",
+      "category": "backend",
+      "image": "https://i.ytimg.com/an_webp/fTWD5Pnxkck/mqdefault_6s.webp?du=3000&sqp=COO6l7QG&rs=AOn4CLAGmEfLh4lued-NNYTv6GniVLuWag",
+      "videoUrl": "url_del_video_6.mp4",
+      "description": "Descripción del Video 6"
+    },
+    {
+      "id": 7,
+      "title": "Título del Video 7",
+      "category": "innovacion_gestion",
+      "image": "https://i.ytimg.com/an_webp/fTWD5Pnxkck/mqdefault_6s.webp?du=3000&sqp=COO6l7QG&rs=AOn4CLAGmEfLh4lued-NNYTv6GniVLuWag",
+      "videoUrl": "url_del_video_7.mp4",
+      "description": "Descripción del Video 7"
+    },
+    {
+      "id": 8,
+      "title": "Título del Video 8",
+      "category": "innovacion_gestion",
+      "image": "https://i.ytimg.com/an_webp/fTWD5Pnxkck/mqdefault_6s.webp?du=3000&sqp=COO6l7QG&rs=AOn4CLAGmEfLh4lued-NNYTv6GniVLuWag",
+      "videoUrl": "url_del_video_8.mp4",
+      "description": "Descripción del Video 8"
     }
 ]

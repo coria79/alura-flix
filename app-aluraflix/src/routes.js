@@ -1,14 +1,19 @@
-const {default: Home} = require ('./pages/Home');
-const {BrowserRouter, Routes, Route} = require("react-router-dom");
+import BasePage from '../src/pages/BasePage';
+import NewVideo from '../src/pages/NewVideo';
+import Home from '../src/pages/Home';
+import {BrowserRouter, Routes, Route}  from "react-router-dom";
 
 function AppRoutes(){
     return(
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Home/>}></Route>
+                <Route path="/" element={<BasePage />}>
+                    <Route index element={<Home />}></Route>
+                    <Route path="/newVideo" element={<NewVideo />}></Route>
+                </Route>
             </Routes>
         </BrowserRouter>
-    )
+    );
 }
 
 export default AppRoutes;
