@@ -3,11 +3,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 65vh; /* Ajustar la altura según necesidades */
+    height: 75vh; /* Ajustar la altura según necesidades */
 }
 
 div{
-    margin: 5px;
+    margin: 4px;
+}
+
+h2{
+    margin: 5px 0px ;
+}
+
+p{
+    margin: 5px 0px ;    
 }
 
 .txt-description{

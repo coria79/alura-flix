@@ -2,10 +2,12 @@
     padding: 0 0 1em 0;
     margin-top: .5em;
     width: 250px;
+    min-width: 230px;
     background-color: gray;
     display: flex;
     flex-direction: column;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, .25);
+    position: relative; /* Agregado: posición relativa para alinear los botones */
 }
 
 .image {
@@ -25,4 +27,33 @@
     text-decoration: none;
     color: inherit;
     text-align: left;
+}
+
+/* Estilos específicos para los botones */
+.container {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos en los extremos */
+    align-items: center; /* Alinea verticalmente los elementos */
+}
+
+.deleteButton,
+.editButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.delete {
+    width: 20px;
+    height: 20px;
+}
+
+.deleteButton {
+    margin-right: auto; /* Empuja el botón Borrar a la izquierda */
+}
+
+.editButton {
+    margin-left: auto; /* Empuja el botón Editar a la derecha */
 }

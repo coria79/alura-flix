@@ -3,82 +3,82 @@
     {
       "id": "1",
       "title": "Título del Video 1",
-      "category": "frontend",
+      "category": "BackEnd",
       "image": "/img/logo-youtube.jpg",
-      "videoUrl": "url_del_video_1.mp4",
-      "description": "Descripción del Video 1"
+      "videoUrl": "https://url_del_video_1.mp4",
+      "description": "Descripción del Video 1 un poquito más larga."
     },
     {
       "id": "2",
       "title": "Título del Video 2",
-      "category": "backend",
+      "category": "Innovación & Gestión",
       "image": "/img/logo-youtube.jpg",
-      "videoUrl": "url_del_video_2.mp4",
+      "videoUrl": "https://url_del_video_2.mp4",
       "description": "Descripción del Video 2"
     },
     {
       "id": "3",
       "title": "Título del Video 3",
-      "category": "innovacion_gestion",
+      "category": "FrontEnd",
       "image": "/img/logo-youtube.jpg",
-      "videoUrl": "url_del_video_3.mp4",
+      "videoUrl": "https://url_del_video_3.mp4",
       "description": "Descripción del Video 3"
     },
     {
       "id": "4",
       "title": "Título del Video 4",
-      "category": "innovacion_gestion",
+      "category": "FrontEnd",
       "image": "/img/logo-youtube.jpg",
-      "videoUrl": "url_del_video_3.mp4",
+      "videoUrl": "https://url_del_video_3.mp4",
       "description": "Descripción del Video 4"
     },
     {
       "id": "5",
       "title": "Título del Video 5",
-      "category": "frontend",
+      "category": "BackEnd",
       "image": "/img/logo-youtube.jpg",
-      "videoUrl": "url_del_video_5.mp4",
+      "videoUrl": "https://url_del_video_5.mp4",
       "description": "Descripción del Video 5"
     },
     {
       "id": "6",
       "title": "Título del Video 6",
-      "category": "backend",
+      "category": "Innovación & Gestión",
       "image": "/img/logo-youtube.jpg",
-      "videoUrl": "url_del_video_6.mp4",
+      "videoUrl": "https://url_del_video_6.mp4",
       "description": "Descripción del Video 6"
     },
     {
       "id": "7",
       "title": "Título del Video 7",
-      "category": "innovacion_gestion",
+      "category": "FrontEnd",
       "image": "/img/logo-youtube.jpg",
-      "videoUrl": "url_del_video_7.mp4",
-      "description": "Descripción del Video 7"
+      "videoUrl": "https://url_del_video_7.mp4",
+      "description": "Descripción del Video 7 a"
     },
     {
       "id": "8",
       "title": "Título del Video 8",
-      "category": "innovacion_gestion",
+      "category": "BackEnd",
       "image": "/img/logo-youtube.jpg",
-      "videoUrl": "url_del_video_8.mp4",
+      "videoUrl": "https://url_del_video_8.mp4",
       "description": "Descripción del Video 8"
     },
     {
-      "id": "3756",
-      "title": "Nuevto Título",
-      "category": "FrontEnd",
+      "id": "7b69",
+      "title": "Nuevo Video 1",
+      "category": "Innovación & Gestión",
       "image": "/img/logo-youtube.jpg",
       "videoUrl": "https://mi.video.mp4",
-      "description": "Mini descripción."
+      "description": "Otra pequeña descripción muy chiquita."
     },
     {
-      "id": "7b69",
+      "id": "8ba7",
       "title": "Nuevo Video 2",
-      "category": "Innovacion & Gestión",
+      "category": "FrontEnd",
       "image": "/img/logo-youtube.jpg",
-      "videoUrl": "https://mi.video.mp4",
-      "description": "Otra pequeña descripción."
+      "videoUrl": "https://video.mp4",
+      "description": "Descripcion 1"
     }
   ],
   "categories": [
@@ -92,7 +92,7 @@
     },
     {
       "id": "3",
-      "name": "Innovacion & Gestión"
+      "name": "Innovación & Gestión"
     }
   ]
 }

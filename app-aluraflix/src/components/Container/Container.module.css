@@ -1,8 +1,8 @@
 .container{
-    margin: 2em 2em;
+    margin: 0em 0em;
     text-align: center;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
-    flex-wrap: wrap;
     gap: .5em;
 }
