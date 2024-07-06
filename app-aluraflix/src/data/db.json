@@ -2,83 +2,147 @@
   "videos": [
     {
       "id": "1",
-      "title": "Título del Video 1",
+      "title": "Simplificando El BackEnd",
       "category": "BackEnd",
-      "image": "/img/logo-youtube.jpg",
-      "videoUrl": "https://url_del_video_1.mp4",
-      "description": "Descripción del Video 1 un poquito más larga."
+      "image": "/img/miniature.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=XuSXJ9DUcvY",
+      "description": "Qué es el back end de una manera sencilla."
     },
     {
       "id": "2",
-      "title": "Título del Video 2",
+      "title": "Técnicas Para Mejorar Tú Aprendizaje",
       "category": "Innovación & Gestión",
-      "image": "/img/logo-youtube.jpg",
-      "videoUrl": "https://url_del_video_2.mp4",
-      "description": "Descripción del Video 2"
+      "image": "/img/miniature-técnicas-para-mejorar-tú-aprendizaje.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=KSyqCUAr2CU",
+      "description": "Te llevaremos por las mejores técnicas para mejorar tu aprendizaje y retención."
     },
     {
       "id": "3",
-      "title": "Título del Video 3",
+      "title": "¿Qué es NodeJs?",
       "category": "FrontEnd",
-      "image": "/img/logo-youtube.jpg",
-      "videoUrl": "https://url_del_video_3.mp4",
-      "description": "Descripción del Video 3"
+      "image": "/img/miniature-qué-es-nodejs.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=o8x_n4Px1N0",
+      "description": "Conoce qué es NodeJS y para qué sirve."
     },
     {
       "id": "4",
-      "title": "Título del Video 4",
+      "title": "Equipo FronEnd",
       "category": "FrontEnd",
-      "image": "/img/logo-youtube.jpg",
-      "videoUrl": "https://url_del_video_3.mp4",
-      "description": "Descripción del Video 4"
+      "image": "/img/miniature.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=rpvrLaBQwgg",
+      "description": "Aquí te explicamos qué hace el equipo de Front End."
     },
     {
       "id": "5",
-      "title": "Título del Video 5",
+      "title": "El Poder Del BackEnd",
       "category": "BackEnd",
-      "image": "/img/logo-youtube.jpg",
-      "videoUrl": "https://url_del_video_5.mp4",
-      "description": "Descripción del Video 5"
+      "image": "/img/miniature-el-poder-del-backend.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=Z024LSCMqFk",
+      "description": "Qué es, porqué empezar con backend, habilidades para desarrolar en backend."
     },
     {
       "id": "6",
-      "title": "Título del Video 6",
+      "title": "Accesibilidad Web",
       "category": "Innovación & Gestión",
-      "image": "/img/logo-youtube.jpg",
-      "videoUrl": "https://url_del_video_6.mp4",
-      "description": "Descripción del Video 6"
+      "image": "/img/miniature.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=ngMOsuZL-XE",
+      "description": "Un tema de extrema importancia para cualquier desarrollador"
     },
     {
       "id": "7",
-      "title": "Título del Video 7",
+      "title": "CRUD",
       "category": "FrontEnd",
-      "image": "/img/logo-youtube.jpg",
-      "videoUrl": "https://url_del_video_7.mp4",
-      "description": "Descripción del Video 7 a"
+      "image": "/img/miniature-crud.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=jr_98HCSTZc",
+      "description": "Descubre el poder del CRUD en el desarrollo de aplicaciones."
     },
     {
       "id": "8",
-      "title": "Título del Video 8",
+      "title": "Banco de Datos MySql",
       "category": "BackEnd",
-      "image": "/img/logo-youtube.jpg",
-      "videoUrl": "https://url_del_video_8.mp4",
-      "description": "Descripción del Video 8"
+      "image": "/img/miniature.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=8J0AoPZMVxA",
+      "description": "Conoce todas las posibilidades de uso de la base de datos."
     },
     {
       "id": "7b69",
-      "title": "Nuevo Video 1",
+      "title": "Cómo Aprender Mejor",
       "category": "Innovación & Gestión",
-      "image": "/img/logo-youtube.jpg",
+      "image": "/img/miniature-cómo-aprender-mejor.jpg",
       "videoUrl": "https://mi.video.mp4",
-      "description": "Otra pequeña descripción muy chiquita."
+      "description": "Consejos importantes para utilizar  en tu rutina de estudios, que te ayudaran en la organización de tus metas."
     },
     {
       "id": "8ba7",
-      "title": "Nuevo Video 2",
+      "title": "Frameworks De FrontEnd",
       "category": "FrontEnd",
-      "image": "/img/logo-youtube.jpg",
+      "image": "/img/miniature.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=UNeKzI2WHgQ",
+      "description": "Cuáles son los frameworks más conocidos y las diferencias entre ellos."
+    },
+    {
+      "id": "a95a",
+      "title": "¿Qué son las metodologias ágiles?",
+      "category": "Innovación & Gestión",
+      "image": "/img/miniature.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=6N3OkLCfK-0",
+      "description": "Qué són las muy conocidas hoy en día metodologias ágiles"
+    },
+    {
+      "id": "8e4f",
+      "title": "Empresas Que Aprenden",
+      "category": "Innovación & Gestión",
+      "image": "/img/miniature-empresas-que-aprenden.jpg",
       "videoUrl": "https://video.mp4",
-      "description": "Descripcion 1"
+      "description": "El papel de la organización en el proceso de aprendizaje de sus profesionales."
+    },
+    {
+      "id": "508c",
+      "title": "Visión De Negocio Para Devs",
+      "category": "Innovación & Gestión",
+      "image": "/img/miniature.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=PtPyM0ZgshA",
+      "description": "Por qué una persona programadora debe desarrollar la Visión de Negocio y la importancia de esta habilidad."
+    },
+    {
+      "id": "313e",
+      "title": "Descomplicando Base De Datos",
+      "category": "BackEnd",
+      "image": "/img/miniature-descomplicando-base-de-datos.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=G1cDRqKuxpg",
+      "description": "Conceptos relacionados a de Base de Datos y todo lo que debe saber sobre el tema."
+    },
+    {
+      "id": "a3f3",
+      "title": "FrontEnd vs BackEnd",
+      "category": "BackEnd",
+      "image": "/img/miniature.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=QjOWz9avkg8",
+      "description": "Descubre las bondades de cada perfil."
+    },
+    {
+      "id": "94f4",
+      "title": "¿Qué Es Profesional En T?",
+      "category": "FrontEnd",
+      "image": "/img/miniature-qué-es-profesional-en-t.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=F-egLIzggE8",
+      "description": "Cuáles son las habilidades y las ventajas de tener un perfil multidisciplinar."
+    },
+    {
+      "id": "d6e8",
+      "title": "La Magia Detrás De Java",
+      "category": "BackEnd",
+      "image": "/img/miniature-la-magia-detrás-de-java.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=GrEO8nZzyZM",
+      "description": "Conoce la JVM (Java Virtual Machine) características y funciones."
+    },
+    {
+      "id": "0496",
+      "title": "React Hooks",
+      "category": "FrontEnd",
+      "image": "/img/miniature.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=9xlea2yDFaY",
+      "description": "Aprende los diferentes usos de uno de los hoooks más utilizados de React."
     }
   ],
   "categories": [

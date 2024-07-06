@@ -87,7 +87,7 @@ function NewVideo() {
                     <label htmlFor="image">Imagen URL:</label>
                 </div>
                 <div>
-                    <input type="text" id="image" name="image" defaultValue="/img/logo-youtube.jpg" required/>
+                    <input type="text" id="image" name="image" defaultValue="/img/miniature.jpg" required/>
                 </div>
                 <div>
                     <label htmlFor="videoUrl">Video URL:</label>

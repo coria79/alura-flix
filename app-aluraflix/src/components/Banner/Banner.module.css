@@ -1,12 +1,39 @@
-.image{
-    width: 100%;
-    height: 300px;
-    background-size: cover;
-    margin: 0px;
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
 }
 
-.gradient{
+.image {
+    width: 100%;
+    height: 36%;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    position:absolute;
+}
+
+.gradient {
     height: 100%;
     width: 100%;
-    opacity: .5;
+    opacity: 0.5;
+}
+
+.miniVidCard{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.videoInfo {
+    position:relative;
+    color: white; /* Color del texto */
+    margin: 0 50px 0 0;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: flex-end; /* Alinea la Card al extremo derecho */
+    align-items:center;
 }
