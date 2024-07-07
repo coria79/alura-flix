@@ -4,7 +4,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,12 +12,17 @@
 }
 
 .modalContent {
-    background: white;
+    background: white; /* Fondo blanco para el contenido */
     padding: 20px;
     border-radius: 8px;
     max-width: 500px;
     width: 100%;
     position: relative;
+    /* Añadir la imagen de fondo */
+    background-image: url('./modal-background.jpg');
+    background-size: cover; /* Ajusta la imagen al tamaño del contenido */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    color: white;
 }
 
 .closeButton {
@@ -28,4 +33,5 @@
     border: none;
     font-size: 16px;
     cursor: pointer;
+    color: white;
 }

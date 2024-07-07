@@ -61,6 +61,9 @@ function NewVideo() {
 
     return (
         <div className={styles["new-video-container"]}> {/* Utiliza la sintaxis de módulos CSS */}
+
+            <div className={styles["border-container"]}>
+
             <h2>Crear Nuevo Video</h2>
             <p>Complete el formulario para crear una nueva tarjeta de video.</p>
             <form onSubmit={handleSubmit}>
@@ -106,6 +109,11 @@ function NewVideo() {
                     <button type="reset">Limpiar Campos</button>
                 </div>
             </form>
+
+
+            </div>
+
+
         </div>
     );
 }
