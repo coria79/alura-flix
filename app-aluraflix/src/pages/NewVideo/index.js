@@ -61,59 +61,53 @@ function NewVideo() {
 
     return (
         <div className={styles["new-video-container"]}> {/* Utiliza la sintaxis de módulos CSS */}
-
             <div className={styles["border-container"]}>
-
-            <h2>Crear Nuevo Video</h2>
-            <p>Complete el formulario para crear una nueva tarjeta de video.</p>
-            <form onSubmit={handleSubmit}>
-                <div>
-                    <label htmlFor="title">Video Título:</label>
-                </div>
-                <div>
-                    <input type="text" id="title" name="title" required />
-                </div>
-                <div>
-                    <label htmlFor="category">Categoría:</label>
-                </div>
-                <div>
-                    <select id="category" name="category" required>
-                        <option value="">Seleccione una categoría</option>
-                        {categories.map(category => (
-                            <option key={category.id} value={category.name}>
-                                {category.name}
-                            </option>
-                        ))}
-                    </select>
-                </div>
-                <div>
-                    <label htmlFor="image">Imagen URL:</label>
-                </div>
-                <div>
-                    <input type="text" id="image" name="image" defaultValue="/img/miniature.jpg" required/>
-                </div>
-                <div>
-                    <label htmlFor="videoUrl">Video URL:</label>
-                </div>
-                <div>
-                    <input type="url" id="videoUrl" name="videoUrl" required />
-                </div>
-                <div>
-                    <label htmlFor="description">Descripción:</label>
-                </div>
-                <div>
-                    <textarea className={styles["txt-description"]} id="description" name="description" rows="5" required></textarea> {/* Utiliza la sintaxis de módulos CSS */}
-                </div>
-                <div>
-                    <button type="submit">Crear</button>
-                    <button type="reset">Limpiar Campos</button>
-                </div>
-            </form>
-
-
+                <h2>Crear Nuevo Video</h2>
+                <p>Complete el formulario para crear una nueva tarjeta de video.</p>
+                <form onSubmit={handleSubmit}>
+                    <div>
+                        <label htmlFor="title">Video Título:</label>
+                    </div>
+                    <div>
+                        <input type="text" id="title" name="title" required />
+                    </div>
+                    <div>
+                        <label htmlFor="category">Categoría:</label>
+                    </div>
+                    <div>
+                        <select id="category" name="category" required>
+                            <option value="">Seleccione una categoría</option>
+                            {categories.map(category => (
+                                <option key={category.id} value={category.name}>
+                                    {category.name}
+                                </option>
+                            ))}
+                        </select>
+                    </div>
+                    <div>
+                        <label htmlFor="image">Imagen URL:</label>
+                    </div>
+                    <div>
+                        <input type="text" id="image" name="image" defaultValue="/img/miniature.jpg" required/>
+                    </div>
+                    <div>
+                        <label htmlFor="videoUrl">Video URL:</label>
+                    </div>
+                    <div>
+                        <input type="url" id="videoUrl" name="videoUrl" required />
+                    </div>
+                    <div>
+                        <label htmlFor="description">Descripción:</label>
+                    </div>
+                    <div>
+                        <textarea className={styles["txt-description"]} id="description" name="description" rows="5" required></textarea> {/* Utiliza la sintaxis de módulos CSS */}
+                    </div>
+                    <div>
+                        <button type="submit" className={styles["bttn-submit"]}>Crear</button>
+                        <button type="reset" className={styles["bttn-reset"]}>Limpiar Campos</button>
+                    </div>
+                </form>
             </div>
-
-
         </div>
     );
 }

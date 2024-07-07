@@ -15,6 +15,7 @@
     background-color: rgba(0, 0, 0, 0.7); /* Color negro con 70% de opacidad */
     border-radius: 10px; /* Bordes redondeados */
     padding: 10px;
+    margin: 10px;
 }
 
 div{
@@ -31,4 +32,9 @@ p{
 
 .txt-description{
     resize: none;
+}
+
+.bttn-submit, .bttn-reset{
+    padding: 5px;
+    margin: 5px;
 }

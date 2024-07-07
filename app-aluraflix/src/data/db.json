@@ -18,7 +18,7 @@
     },
     {
       "id": "3",
-      "title": "¿Qué es NodeJs?",
+      "title": "¿Qué es Node JS?",
       "category": "FrontEnd",
       "image": "/img/miniature-qué-es-nodejs.jpg",
       "videoUrl": "https://www.youtube.com/watch?v=o8x_n4Px1N0",
@@ -50,7 +50,7 @@
     },
     {
       "id": "7",
-      "title": "CRUD",
+      "title": "C.R.U.D.",
       "category": "FrontEnd",
       "image": "/img/miniature-crud.jpg",
       "videoUrl": "https://www.youtube.com/watch?v=jr_98HCSTZc",
@@ -122,7 +122,7 @@
     },
     {
       "id": "94f4",
-      "title": "¿Qué Es Profesional En T?",
+      "title": "¿Qué Es Profesional En T ?",
       "category": "FrontEnd",
       "image": "/img/miniature-qué-es-profesional-en-t.jpg",
       "videoUrl": "https://www.youtube.com/watch?v=F-egLIzggE8",
