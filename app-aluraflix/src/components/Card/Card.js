@@ -1,7 +1,8 @@
 import React from 'react';
-import styles from "./Card.module.css";
-import iconDelete from "./iconCandyTrash32x32.png";
-import iconEdit from "./iconEdit32x32.png"
+import styles from './Card.module.css';
+import iconDelete from './iconCandyTrash32x32.png';
+import iconEdit from './iconEdit32x32.png';
+import { Link } from 'react-router-dom';
 
 function Card({id, image, title, onDelete, onEdit}){
 
@@ -19,8 +20,10 @@ function Card({id, image, title, onDelete, onEdit}){
     
     return(
         <div className={styles.container}>
-            <img src={image} alt={title} className={styles.image} />
-            <h2>{title}</h2>
+            <Link className={styles.link} to={`/${id}`}>
+                <img src={image} alt={title} className={styles.image} />
+                <h2>{title}</h2>
+            </Link>
             <div>
                 <button className={styles.deleteButton} onClick={handleDelete}>
                     <img src={iconDelete} alt="Icono Borrar" className={styles.delete} />
