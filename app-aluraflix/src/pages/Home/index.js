@@ -68,7 +68,13 @@ function Home() {
             .then(response => {
                 if (response.ok) {
                     console.log('Video eliminado');
-                    window.location.reload();
+
+                    //This only update the videos when is deleted.
+                    const updatedVideos = videosData.videos.filter(video => video.id !== videoId);
+                    videosData.videos = updatedVideos;
+
+                    //This wil update the entire page. Not the best thing.
+                    //window.location.reload();
                 } else {
                     console.error('Error eliminando el video');
                 }
