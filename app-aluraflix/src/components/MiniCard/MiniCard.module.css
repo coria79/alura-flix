@@ -8,7 +8,7 @@
     flex-direction: column;
     justify-content: center;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, .25);
-    position: relative; /* Posición relativa para alinear los botones */
+    position: relative;
     border-radius: 18px;
     overflow: hidden;
 }

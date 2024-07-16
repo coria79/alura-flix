@@ -14,20 +14,20 @@ function Home() {
     const handleEdit = (videoId) => {
         const video = videosData.videos.find(v => v.id === videoId);
         setSelectedVideo(video);
-        setSelectedCategory(video.category); // Establecer la categoría seleccionada
+        setSelectedCategory(video.category); // Set selected category
         setShowEditForm(true);
     };
 
     const handleCloseEditForm = () => {
         setSelectedVideo(null);
-        setSelectedCategory(''); // Reiniciar la categoría seleccionada al cerrar el formulario
+        setSelectedCategory(''); // Restart selected category when form is closed
         setShowEditForm(false);
     };
 
     const handleSaveEdit = (event) => {
         event.preventDefault();
 
-        // Verificar que selectedVideo no sea null antes de acceder a sus propiedades
+        // Check selectedVideo not null befores access their props
         if (!selectedVideo) {
             console.error('No hay video seleccionado para editar.');
             return;
@@ -42,7 +42,7 @@ function Home() {
             description: event.target.editDescription.value,
         };
 
-        // Actualizar el video en el servidor JSON
+        // Update the video in the JSON server
         fetch(`http://localhost:3001/videos/${editedVideo.id}`, {
             method: 'PUT',
             headers: {
@@ -54,7 +54,7 @@ function Home() {
         .then(data => {
             console.log('Video actualizado:', data);
             handleCloseEditForm();
-            window.location.reload(); // Recargar la página para ver los cambios
+            window.location.reload(); // Reload the page to see changes
         })
         .catch(error => console.error('Error actualizando el video:', error));
     };
@@ -78,8 +78,8 @@ function Home() {
     };
 
     const handleResetForm = () => {
-        setSelectedVideo(null); // Resetear el estado de selectedVideo a null
-        setSelectedCategory(''); // Resetear la categoría seleccionada
+        setSelectedVideo(null); // Reset estate selectedVideo to null
+        setSelectedCategory(''); // Reset chosen category
     };
     
     if (!Array.isArray(videosData.videos)) {
@@ -87,7 +87,7 @@ function Home() {
         return null;
     }
 
-    // Agrupar videos por categoría
+    // Group videos by category
     const videosByCategory = videosData.categories.map(category => ({
         category: category.name,
         videos: videosData.videos.filter(video => video.category === category.name)

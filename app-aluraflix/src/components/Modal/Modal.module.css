@@ -4,7 +4,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.4); /* Fondo negro con 40% de opacidad */
+    background-color: rgba(0, 0, 0, 0.4); /* Black with 40% opacity */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,13 +12,13 @@
 }
 
 .modalContent {
-    background: white; /* Fondo blanco para el contenido */
+    background: white;
     padding: 20px;
     border-radius: 8px;
     max-width: 500px;
     width: 100%;
     position: relative;
-    background-color: rgba(0, 0, 0, 0.6); /* Color negro con 70% de opacidad */
+    background-color: rgba(0, 0, 0, 0.6);  /* Black with 60% opacity */
     box-shadow: 1px 2px 2px 1px rgba(255, 255, 255, 0.75);
 
 

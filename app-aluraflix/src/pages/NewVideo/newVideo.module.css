@@ -3,18 +3,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /*height: 75vh;*/ /* Ajustar la altura según necesidades */
-    background-image: url('./new-video-background.jpg'); /* Ruta relativa a la imagen de fondo */
-    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
-    background-position: center; /* Centra la imagen de fondo */
-    background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+    background-image: url('./new-video-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: white;
     margin: 0px;
 }
 
 .border-container{
-    background-color: rgba(0, 0, 0, 0.7); /* Color negro con 70% de opacidad */
-    border-radius: 10px; /* Bordes redondeados */
+    background-color: rgba(0, 0, 0, 0.7); /* Black colour with 70% opacity */
+    border-radius: 10px;
     padding: 10px;
     margin: 10px;
 }
