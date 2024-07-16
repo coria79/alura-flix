@@ -23,4 +23,4 @@ Mendoza - Argentina - 2024.<br><br>
 
 ### Legal Disclaimer:<br>
 
-Este proyecto ha sido realizado sólo con fines educativos. Los archivos de imágenes y logos utilizados son de propiedad de sus propios creadores. Si así lo desea por favor envíenos un correo y la imagen en cuestión será removida. Gracias por su compresión.
+Este proyecto ha sido realizado sólo con fines educativos. Los archivos audio visuales y logos utilizados son de propiedad de sus propios creadores. Si así lo desea por favor envíenos un correo y la imagen en cuestión será removida. Gracias por su compresión.
