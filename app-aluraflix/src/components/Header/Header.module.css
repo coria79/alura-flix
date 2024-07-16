@@ -2,12 +2,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.1em 10em;
+    padding: 1.1em 20px;
     background-color: black;
+}
+
+nav{
+    overflow: hidden;
 }
 
 a{
     text-decoration: none;
+    text-align: center;
+    overflow: hidden;
 }
 
 .logoContainer{
@@ -19,4 +25,22 @@ a{
 .header img{
     align-self: start;
     max-height: 100%;
+}
+
+@media only screen and (max-width: 450px) {
+    .header{
+        justify-content: center;
+    }
+    .header .logoContainer, .header img{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 451px) {
+    .header{
+        justify-content: space-between;
+    }
+    .header .logoContainer, .header img{
+        display: flex;
+    }
 }

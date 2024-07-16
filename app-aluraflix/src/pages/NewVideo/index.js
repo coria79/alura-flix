@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import db from '../../data/db.json';
-import styles from './newVideo.module.css'; // Importa el módulo CSS
+import styles from './newVideo.module.css';
 
 function NewVideo() {
     const [categories, setCategories] = useState([]); // State for categories

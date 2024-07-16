@@ -18,10 +18,7 @@ function Banner() {
 
     return (
         <div className={styles.banner}>
-            <div className={styles.image} style={{backgroundImage: `url(${banner})`}}>
-                <div className={styles.gradient}></div>
-            </div>
-            <div className={styles.miniVidCard}>
+            <div className={styles.miniVidCard} style={{backgroundImage: `url(${banner})`}}>
                 <div className={styles.videoInfo}>
                     <h2>{randomVideo.category}</h2>
                     <h4>{randomVideo.title}</h4>
@@ -32,8 +29,6 @@ function Banner() {
                     image={randomVideo.image}
                 />
             </div>
-
-            {/* Aquí puedes agregar cualquier otro contenido del banner, como overlay, gradientes, etc. */}
         </div>
     );
 }
